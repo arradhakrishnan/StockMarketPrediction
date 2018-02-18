@@ -164,7 +164,7 @@ def update_one(company):
 	lb10=ma10-0.02*st.pstdev(df['Close'][i-11:i-1])
 
 	ub20=0.0
-	ub20=ma20+0.02*st.pstdev(df['Close'][i-11:i-1])
+	ub20=ma20+0.02*st.pstdev(df['Close'][i-21:i-1])
 
 	lb20=0.0
 	lb20=ma20-0.02*st.pstdev(df['Close'][i-21:i-1])
